@@ -4,7 +4,7 @@ Ladybugs is a tool which party automatically tests the Usability of any given we
 and provides information on how to test the parts that cannot be tested automatically.
 
 
-[![Watch the video](prototype.png?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=54bbffe0)](https://youtu.be/rUf0mT2QVp4)
+[![Watch the video](prototype.png?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=54bbffe0)](https://youtu.be/-2Qu3AQvIZk)
 
 
 Ladybugs doesn't exist yet - you will implement it yourself!
