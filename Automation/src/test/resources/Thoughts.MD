@@ -1,0 +1,6 @@
+- Heuristic services should be the classes containing the logic which is needed in order to execute test steps. 
+- When it comes to the steps, these contain the actual test. They should be generic so the framework can easily be adopted.
+- Not sure whether a Cucumber abstraction layer adds value here, lets discuss.
+- Properties should contain all that is needed environment-wise on a top level.
+- Pages package contain generic elements for typical pages extends basepage.
+- It's just the folder structure now. Examples will follow
