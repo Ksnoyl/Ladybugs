@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Usability Tester</title>
+</head>
+<body>
+    <h1>Website Usability Tester</h1>
+    <p>Enter the URL of the website you want to test:</p>
+    <form id="urlForm">
+        <input type="text" id="urlInput" placeholder="Enter URL">
+        <button type="submit">Test</button>
+    </form>
+    
+    <script>
+        document.getElementById("urlForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            var url = document.getElementById("urlInput").value;
+            // You can do something with the URL here, such as initiating a test.
+            // For now, let's just log it to the console.
+            console.log("Testing URL:", url);
+        });
+    </script>
+</body>
+</html>
