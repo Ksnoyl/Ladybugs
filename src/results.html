@@ -34,11 +34,11 @@
             // Display the test results
             const resultsDiv = document.getElementById('results');
             resultsDiv.innerHTML = '<h2>Website: ' + url + '</h2>';
-            resultsDiv.innerHTML += '<table><tr><th>Heuristic</th><th>Score</th></tr>';
+            resultsDiv.innerHTML += '<ul>';
             heuristics.forEach(heuristic => {
-                resultsDiv.innerHTML += '<tr><td>' + heuristic.name + '</td><td>' + heuristic.score + '</td></tr>';
+                resultsDiv.innerHTML += '<li><strong>' + heuristic.name + '</strong>: ' + heuristic.score + '</li>';
             });
-            resultsDiv.innerHTML += '</table>';
+            resultsDiv.innerHTML += '</ul>';
         }
 
         // Call the function to display the results
