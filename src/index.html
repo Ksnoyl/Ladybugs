@@ -18,8 +18,8 @@
             event.preventDefault();
             var url = document.getElementById("urlInput").value;
             // You can do something with the URL here, such as initiating a test.
-            // For now, let's just log it to the console.
-            console.log("Testing URL:", url);
+            // For now, let's just navigate to the results page.
+            window.location.href = "results.html?url=" + encodeURIComponent(url);
         });
     </script>
 </body>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usability Test Results</title>
+</head>
+<body>
+    <h1>Usability Test Results</h1>
+
+    <div id="results"></div>
+
+    <script>
+        // Retrieve the URL parameter from the query string
+        const urlParams = new URLSearchParams(window.location.search);
+        const url = urlParams.get('url');
+
+        // Function to fetch and display the usability test results
+        function displayResults(url) {
+            // Placeholder data (replace this with actual logic to test usability)
+            const heuristics = [
+                { name: 'Visibility of system status', score: 8 },
+                { name: 'Match between system and the real world', score: 7 },
+                { name: 'User control and freedom', score: 6 },
+                { name: 'Consistency and standards', score: 9 },
+                { name: 'Error prevention', score: 8 },
+                { name: 'Recognition rather than recall', score: 7 },
+                { name: 'Flexibility and efficiency of use', score: 8 },
+                { name: 'Aesthetic and minimalist design', score: 9 },
+                { name: 'Help users recognize, diagnose, and recover from errors', score: 7 },
+                { name: 'Help and documentation', score: 6 }
+            ];
+
+            // Display the test results
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '<h2>Website: ' + url + '</h2>';
+            resultsDiv.innerHTML += '<table><tr><th>Heuristic</th><th>Score</th></tr>';
+            heuristics.forEach(heuristic => {
+                resultsDiv.innerHTML += '<tr><td>' + heuristic.name + '</td><td>' + heuristic.score + '</td></tr>';
+            });
+            resultsDiv.innerHTML += '</table>';
+        }
+
+        // Call the function to display the results
+        displayResults(url);
+    </script>
+</body>
+</html>
