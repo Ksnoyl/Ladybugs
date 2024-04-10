@@ -4,6 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Usability Tester</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        p {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            box-sizing: border-box;
+        }
+
+        button[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
     <h1>Website Usability Tester</h1>
@@ -12,15 +55,5 @@
         <input type="text" id="urlInput" placeholder="Enter URL">
         <button type="submit">Test</button>
     </form>
-    
-    <script>
-        document.getElementById("urlForm").addEventListener("submit", function(event) {
-            event.preventDefault();
-            var url = document.getElementById("urlInput").value;
-            // You can do something with the URL here, such as initiating a test.
-            // For now, let's just navigate to the results page.
-            window.location.href = "results.html?url=" + encodeURIComponent(url);
-        });
-    </script>
 </body>
 </html>
