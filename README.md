@@ -11,11 +11,15 @@ More information about the Ladybug:
 
 Blogs:
 
-https://huddle.eurostarsoftwaretesting.com/risingstar-2022-update-mission-impossible-automatic-usability-testing/
-https://huddle.eurostarsoftwaretesting.com/risingstar-update-is-there-a-need-for-a-ux-tester/
-https://huddle.eurostarsoftwaretesting.com/risingstar-update-on-the-ladybug/
-https://huddle.eurostarsoftwaretesting.com/ladybug-open-source-project-kick-off/
-https://www.linkedin.com/pulse/report-out-ai-playground-kimberly-snoyl-ztfee/
+Blog 1: https://huddle.eurostarsoftwaretesting.com/risingstar-2022-update-mission-impossible-automatic-usability-testing/
+
+Blog 2: https://huddle.eurostarsoftwaretesting.com/risingstar-update-is-there-a-need-for-a-ux-tester/
+
+Blog 3: https://huddle.eurostarsoftwaretesting.com/risingstar-update-on-the-ladybug/
+
+Blog 4: https://huddle.eurostarsoftwaretesting.com/ladybug-open-source-project-kick-off/
+
+Blog 5: https://www.linkedin.com/pulse/report-out-ai-playground-kimberly-snoyl-ztfee/
 
 Ladybugs doesn't exist yet - you can help implement it yourself!
 
