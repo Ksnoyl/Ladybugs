@@ -15,6 +15,7 @@ https://huddle.eurostarsoftwaretesting.com/risingstar-2022-update-mission-imposs
 https://huddle.eurostarsoftwaretesting.com/risingstar-update-is-there-a-need-for-a-ux-tester/
 https://huddle.eurostarsoftwaretesting.com/risingstar-update-on-the-ladybug/
 https://huddle.eurostarsoftwaretesting.com/ladybug-open-source-project-kick-off/
+https://www.linkedin.com/pulse/report-out-ai-playground-kimberly-snoyl-ztfee/
 
 Ladybugs doesn't exist yet - you can help implement it yourself!
 
